@@ -1,0 +1,8 @@
+ul {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+li {
+    color: rgb(115, 255, 0);
+}

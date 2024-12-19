@@ -1,0 +1,72 @@
+/* 4 - External  */
+body {
+    padding-bottom: 500 px;
+}
+h3{
+    color: green;
+    font-size: 60px;
+    font-weight: 200;
+    animation: blink 1s infinite;
+}
+
+p {
+    color: rgb(22, 220, 245);
+}
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+/* Algum comentário */
+/* segundo comentário */
+
+
+.paragraph {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+
+}
+
+/* ids */
+#exclusive-title {
+    background-color: brown;
+    font-size: 100px;
+}
+
+/* ordem das regras*/
+/* 3ª prioridade */
+h2 {
+    border-bottom: 2px solid red;
+}
+/* 2ª prioridade: classe */
+.titulo { 
+    border-bottom: 3px solid blue;
+}
+/* prioridade => id */
+#algum.titulo {
+    border-bottom: 4px solid rgb(17, 146, 17);
+}
+
+/* Nome de cores */
+.color-name{
+    color: rgb(110, 17, 17);
+}
+
+/* Cor hexadecimal */
+.hex {
+    color: #55a398;
+}
+
+/* RGBa */
+.rgba {
+    color: rgba(200, 199, 45, 0.5)    
+}
